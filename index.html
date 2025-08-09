@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>ColorfulCraftworks</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+            <h1 id="head">ColorfulCraftworks</h1>
+            <div id="container">
+                <div id="font-color">
+                    <h1 style="background: linear-gradient(#da148eab,#0B2C3D);background-clip:text;color:transparent;">Font Color</h1>
+                    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;row-gap:10px;column-gap:10px;">
+                        <button style="background-color:brown;" onclick="changeFontColor('brown')"></button>
+                        <button style="background-color:green;" onclick="changeFontColor('green')"></button>
+                        <button style="background-color:blue;" onclick="changeFontColor('blue')"></button>
+                        <button style="background-color:red;" onclick="changeFontColor('red')"></button>
+                        <button style="background-color:blueviolet;" onclick="changeFontColor('blueviolet')"></button>
+                        <button style="background-color:black;" onclick="changeFontColor('black')"></button>
+                        <button style="background-color:pink;" onclick="changeFontColor('pink')"></button>
+                        <button style="background-color:aqua" onclick="changeFontColor('aqua')"></button>
+                        <button style="background-color:orange;" onclick="changeFontColor('orange')"></button>
+                    </div>
+                </div>  
+                
+                <div id="background-color">
+                    <h1 style="background: linear-gradient(#da148eab,#0B2C3D);background-clip:text;color:transparent;">Background Color</h1>
+                    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;row-gap:10px;column-gap:10px;">
+                        <button style="background-color:blue;" onclick="changeBgColor('blue')"></button>
+                        <button style="background-color:coral;" onclick="changeBgColor('coral')"></button>
+                        <button style="background-color:brown;" onclick="changeBgColor('brown')"></button>
+                        <button style="background-color:chocolate;" onclick="changeBgColor('chocolate')"></button>
+                        <button style="background-color:black;" onclick="changeBgColor('black')"></button>
+                        <button style="background-color:blueviolet;" onclick="changeBgColor('blueviolet')"></button>
+                        <button style="background-color:red;" onclick="changeBgColor('red')"></button>
+                        <button style="background-color:greenyellow" onclick="changeBgColor('greenyellow')"></button>
+                        <button style="background-color:orangered;" onclick="changeBgColor('orangered')"></button>
+
+                    </div>
+
+                </div>
+
+                <div id="background-image">
+                    <h1 style="background: linear-gradient(#da148eab,#0B2C3D);background-clip:text;color:transparent;">Background Image</h1>
+                    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;row-gap:10px;column-gap:10px;">
+                        <button style="background-image: url('bg1.jpg');" onclick="changeBgImage('bg1.jpg')"></button>
+                        <button style="background-image:url('bg2.jpg');" onclick="changeBgImage('bg2.jpg')"></button>
+                        <button style="background-image:url('bg3.jpg');" onclick="changeBgImage('bg3.jpg')"></button>
+                        <button style="background-image:url('bg4.jpg');" onclick="changeBgImage('bg4.jpg')"></button>
+                        <button style="background-image:url('bg5.jpg');" onclick="changeBgImage('bg5.jpg')"></button>
+                        <button style="background-image:url('bg6.jpg');" onclick="changeBgImage('bg6.jpg')"></button>
+                        <button style="background-image:url('bg7.jpg');" onclick="changeBgImage('bg7.jpg')"></button>
+                        <button style="background-image:url('bg8.jpg');" onclick="changeBgImage('bg8.jpg')"></button>
+                        <button style="background-image:url('bg9.jpg');" onclick="changeBgImage('bg9.jpg')"></button>
+
+                    </div>
+
+                </div>
+                <div id="font-style">
+                    <h1 style="font-family:fantasy;" onclick="changeFontFaimily('fantasy')">Style</h1>
+                    <h1 style="font-family:monospace;" onclick="changeFontFaimily('monospace')">Style</h1>
+                    <h1 style="font-family:inherit" onclick="changeFontFaimily('inherit')">Style</h1>
+                    <h1 style="font-family:unset" onclick="changeFontFaimily('unset')">Style</h1>
+                    <h1 style="font-family:cursive" onclick="changeFontFaimily('cursive')">Style</h1>
+
+                </div>
+                <div id="text-editor">
+                   <h1 id="text" contenteditable="true">Enter your text</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
